@@ -1,0 +1,13 @@
+[versions]
+kotlin = "2.2.20"
+fleet-sdk = "0.7.337"
+fleet-runtime = "1.48.261"
+kotlinx-datetime = "0.7.1"
+
+[libraries]
+kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx-datetime" }
+
+[plugins]
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+fleet-plugin = { id = "org.jetbrains.fleet-plugin", version.ref = "fleet-sdk" }
+fleet-plugin-layer = { id = "org.jetbrains.fleet-plugin-layer", version.ref = "fleet-sdk" }
