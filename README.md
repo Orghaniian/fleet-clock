@@ -1,13 +1,11 @@
-# fleet-plugin-template
+# Fleet Clock Plugin
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Orghaniian/fleet-clock/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
-**JetBrains Fleet Plugin Template** is a repository that provides a template to make it easier to create a new plugin project for
-[JetBrains Fleet][fleet:website].
+A simple JetBrains Fleet plugin that displays the current time in the status bar. Click the clock to toggle between HH:mm and HH:mm:ss formats.
 
-- [Fleet Plugin SDK Documentation][fleet:sdk-documentation]
-- [Example Fleet plugins][fleet:example-plugins]
+<img width="617" height="59" alt="statusbar" src="https://github.com/user-attachments/assets/46ee01df-bb53-4775-90e2-9ddff9362725" />
 
-[fleet:website]: https://www.jetbrains.com/fleet/
-[fleet:sdk-documentation]: https://github.com/JetBrains/fleet-sdk-gradle-plugin
-[fleet:example-plugins]: https://github.com/JetBrains/fleet-sdk-gradle-plugin/tree/main/examples
+<img width="1081" height="701" alt="Full Dark" src="https://github.com/user-attachments/assets/4fd6dd60-c49b-40c2-b149-4a64533b2dbc" />
+
+<img width="1081" height="701" alt="Full Light" src="https://github.com/user-attachments/assets/01092603-2465-41dd-a032-aead322d6bba" />
